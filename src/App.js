@@ -17,8 +17,7 @@ class App extends Component{
         <Router>
           <div className="App">
             <Navbar/>
-            <Route export path="/projectBoard" component={ProjectBoard}/>
-            <Route export path="/addProjectTask" component={AddProjectTask}/>
+            <ProjectBoard/>
           </div>
         </Router>
         </Provider>
